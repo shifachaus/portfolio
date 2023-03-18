@@ -1,0 +1,49 @@
+#contact {
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.icon {
+  font-size: 1.2rem;
+}
+
+.info h4 {
+  font-size: 1.2rem;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  #contact {
+    padding: 5em 8em;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info h4 {
+    font-size: 1.2rem;
+  }
+
+  .info .text {
+    font-size: 1rem;
+    margin-top: 0.6em;
+  }
+}
