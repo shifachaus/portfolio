@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "../Images/hero-img.png";
 import "../Components/Hero.css";
 import {
   IoLogoHtml5,
@@ -12,27 +11,27 @@ const Hero = () => {
   return (
     <section id="hero">
       <main className="container">
-        <div className="hero-container">
+        <div className="hero-container main-container">
           <div className="info-container">
-            <p className="sub-heading">Hello, I'm Shifa</p>
             <h1 className="heading-primary">
-              {" "}
-              I'm Front-End React Developer Passionate about building Web Apps.
+              Crafting Web Experiences with Love and Emotion
             </h1>
+            <p className="intro">
+              I'm a Frontend Developer with one year of hands-on experience
+              based in India. My passion lies in creating web applications that
+              address and solve user problems.
+            </p>
           </div>
-          <div className="hero-img-container">
-            <img src={heroImg} className="img" />
-          </div>
-        </div>
 
-        <div className="tech-stack-container">
-          <h3 className="heading">Tech stack</h3>
-          <div className="vertical-line"></div>
-          <div className="tech-stack">
-            <IoLogoHtml5 className="stack-icon-1 stack" />
-            <IoLogoCss3 className="stack-icon-2 stack" />
-            <IoLogoJavascript className="stack-icon-3 stack" />
-            <IoLogoReact className="stack-icon-4 stack" />
+          <div className="tech-stack-container ">
+            <h3 className="heading">Tech stack</h3>
+
+            <div className="tech-stack">
+              <IoLogoHtml5 className="stack-icon-1 stack" />
+              <IoLogoCss3 className="stack-icon-2 stack" />
+              <IoLogoJavascript className="stack-icon-3 stack" />
+              <IoLogoReact className="stack-icon-4 stack" />
+            </div>
           </div>
         </div>
       </main>

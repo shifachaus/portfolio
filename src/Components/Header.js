@@ -1,66 +1,34 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [status, setStatus] = useState(false);
 
   return (
     <header id="header">
       <main className="container">
-        <div className="nav-container">
-          <h2 className="logo">SC</h2>
+        <div className="nav__container">
+          <Link to="/" className="logo__link">
+            <h2 className="logo">Shifa</h2>
+          </Link>
+
           <nav className="nav">
-            <ul className="nav-list">
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="hero"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                >
+            <ul className="nav__list">
+              <li className="nav__item">
+                <Link className="nav__item-desk" to="/">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                {" "}
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                >
+              <li className="nav__item">
+                <Link className="nav__item-desk" to="about">
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                {" "}
-                <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                >
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                {" "}
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                >
-                  Contact
+              <li className="nav__item">
+                <Link className="nav__item-desk" to="work">
+                  Work
                 </Link>
               </li>
             </ul>
@@ -69,82 +37,56 @@ const Header = () => {
           {!status && (
             <IoMenuOutline
               style={{ fontSize: "1.8rem" }}
-              className="menu-open"
+              className="menu__open"
               onClick={() => setStatus(true)}
             />
           )}
         </div>
 
-        {/* {status && ( */}
-        <div className={status ? "nav-menu active" : "nav-menu"}>
-          {" "}
+        <div className={status ? "nav__menu active" : "nav__menu"}>
           {status && (
             <IoCloseOutline
               style={{ fontSize: "1.8rem" }}
-              className="menu-close"
+              className="menu__close"
               onClick={() => setStatus(false)}
             />
           )}
           <div
-            className={status ? "active nav-mobile-close" : "nav-mobile-close"}
+            className={
+              status ? "active nav__mobile-close" : "nav__mobile-close"
+            }
           >
-            <ul className="nav-list-mobile">
-              <li className="nav-item">
+            <ul className="nav__list-mobile">
+              <li className="nav__item">
                 <Link
-                  activeClass="active"
-                  to="hero"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
+                  to="/"
+                  className="nav__item-mobile"
                   onClick={() => setStatus(false)}
                 >
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav__item">
                 <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
+                  to="/about"
+                  className="nav__item-mobile"
                   onClick={() => setStatus(false)}
                 >
                   About
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav__item">
                 <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
+                  to="/work"
+                  className="nav__item-mobile"
                   onClick={() => setStatus(false)}
                 >
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                  onClick={() => setStatus(false)}
-                >
-                  Contact
+                  Work
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-        {/* )} */}
       </main>
     </header>
   );

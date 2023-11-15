@@ -1,5 +1,6 @@
 #about {
-  margin-top: 4em;
+  padding-top: 7em;
+  padding-bottom: 7em;
 }
 
 .about-img {
@@ -8,15 +9,15 @@
 }
 
 .heading-secondary {
-  font-size: 1.6rem;
-  margin-bottom: 0.4em;
-  color: rgba(0, 0, 0, 0.651);
+  font-size: 2rem;
+  margin-bottom: 0.6em;
+  color: #fff;
 }
 
 .text {
-  font-size: 0.9rem;
-  color: #0000008b;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 1.4;
 }
 
 .about-container {
@@ -24,7 +25,8 @@
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  row-gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 .about-info-container {
@@ -38,13 +40,7 @@
   .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center;
-    justify-content: center; */
-  }
-
-  .about-img-container,
-  .about-info-container {
-    width: 90%;
+    gap: 2em;
   }
 
   .about-info-container {
@@ -52,12 +48,24 @@
   }
 
   .heading-secondary {
-    font-size: 1.8rem;
-    margin-bottom: 0.4em;
-    color: rgba(0, 0, 0, 0.651);
+    font-size: 2.8rem;
+    margin-bottom: 2em;
+    color: #fff;
   }
 
   .about-info-container .text {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #about {
+    padding: 12em 7em 12em 7em;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    margin-bottom: 2em;
+    color: #fff;
   }
 }

@@ -1,6 +1,7 @@
 #contact {
   padding-top: 4em;
   padding-bottom: 2em;
+  /* background-color: #ffffff18; */
 }
 
 .contact-container {
@@ -23,13 +24,14 @@
   font-size: 1.2rem;
 }
 
-.line {
-  text-decoration: underline;
+.link {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (min-width: 800px) {
   #contact {
-    padding: 5em 8em;
+    padding: 12em 8em 4em 8em;
   }
   .contact-container {
     display: grid;
