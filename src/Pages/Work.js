@@ -18,16 +18,18 @@ const Work = () => {
             ></a>
             <h3 className="project__name">Food Villa</h3>
             <p className="info">
-              Reference site about Lorem Ipsum, giving information on its
-              origins, as well as a random Lipsum generator.
+              FoodVilla is a food web app where you can explore delicious
+              dishes, easily search for your favorites, and add them to your
+              cart.
             </p>
           </div>
           <div className="work">
             <a href="https://theshopease.netlify.app/" className="work--2"></a>
             <h3 className="project__name">ShopEase</h3>
             <p className="info">
-              Reference site about Lorem Ipsum, giving information on its
-              origins, as well as a random Lipsum generator.
+              ShopEase is your online furniture store. Browse, buy, and leave
+              reviews easily. Add items to your cart with just a click. Simplify
+              your furniture shopping experience with ShopEase!
             </p>
           </div>
           <div className="work">
@@ -37,8 +39,9 @@ const Work = () => {
             ></a>
             <h3 className="project__name">Youtube Clone</h3>
             <p className="info">
-              Reference site about Lorem Ipsum, giving information on its
-              origins, as well as a random Lipsum generator.
+              The yt-doppelganger (YouTube Clone) is a web app where you can
+              explore, watch videos, add comments, and participate in live
+              chats.
             </p>
           </div>
 
@@ -49,8 +52,9 @@ const Work = () => {
             ></a>
             <h3 className="project__name">Image Gallery</h3>
             <p className="info">
-              Reference site about Lorem Ipsum, giving information on its
-              origins, as well as a random Lipsum generator.
+              Gallery Gaze is a photo platform where you can explore and find
+              high quality images.You can easily search for the pictures, and if
+              you really like a photo, just give it a like.
             </p>
           </div>
         </div>
