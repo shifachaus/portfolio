@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800;900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,8 +7,9 @@
 }
 
 body {
-  background-color: black;
-  color: #fff;
+  background-color: #111111;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -16,17 +19,14 @@ html {
 .container {
   margin: 0 auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1120px;
 }
 
 .sub-heading-section {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
-  font-weight: 900;
   color: #b3e0b7fa;
-  /* background: -webkit-linear-gradient(#b3e0b7fa, #b3e0b7fa);
-  -webkit-background-clip: text; */
-  /* -webkit-text-fill-color: transparent; */
-  margin-bottom: 1.4em;
+  margin-bottom: 0.1em;
+  font-family: "Poppins", sans-serif;
 }

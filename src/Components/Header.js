@@ -17,11 +17,6 @@ const Header = () => {
           <nav className="nav">
             <ul className="nav__list">
               <li className="nav__item">
-                <Link className="nav__item-desk" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav__item">
                 <Link className="nav__item-desk" to="about">
                   About
                 </Link>
@@ -36,7 +31,7 @@ const Header = () => {
 
           {!status && (
             <IoMenuOutline
-              style={{ fontSize: "1.8rem" }}
+              style={{ fontSize: "2.5rem" }}
               className="menu__open"
               onClick={() => setStatus(true)}
             />
@@ -57,15 +52,6 @@ const Header = () => {
             }
           >
             <ul className="nav__list-mobile">
-              <li className="nav__item">
-                <Link
-                  to="/"
-                  className="nav__item-mobile"
-                  onClick={() => setStatus(false)}
-                >
-                  Home
-                </Link>
-              </li>
               <li className="nav__item">
                 <Link
                   to="/about"

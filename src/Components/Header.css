@@ -16,7 +16,7 @@
 .logo {
   text-transform: capitalize;
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   z-index: 999;
   font-weight: 300;
 }
@@ -97,7 +97,7 @@
 }
 
 .nav__item-desk {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 0.2em;
   cursor: pointer;
   color: #fff;

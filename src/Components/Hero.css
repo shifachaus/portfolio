@@ -3,9 +3,11 @@
 }
 
 .heading-primary {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #fff;
-  line-height: 1.1;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
 }
 
 .sub-heading {
@@ -19,11 +21,13 @@
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
+  padding: 8em 2em;
 }
 
 .main-container {
   min-height: 350px;
-  max-width: 900px;
+
+  /* max-width: 900px; */
   margin: 0 auto;
 }
 
@@ -92,7 +96,6 @@
 
   .heading-primary {
     font-size: 3rem;
-    text-align: left;
   }
 
   .sub-heading {
