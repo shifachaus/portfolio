@@ -7,7 +7,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <section id="projects">
-      <main className="container">
+      <div className="container">
         <div className="main-container">
           <p className="sub-heading-section">Portfolio</p>
           <h2 className="heading-secondary">Selected Projects</h2>
@@ -92,7 +92,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </section>
   );
 };
