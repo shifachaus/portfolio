@@ -104,68 +104,11 @@
   margin-top: 4em;
 }
 
-#work {
-  padding-top: 7em;
-}
-
 .project-container {
   display: flex;
   flex-direction: column;
   gap: 8em;
   margin-top: 1.8em;
-}
-
-.box {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.work-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.8rem;
-}
-
-.work--1,
-.work--2,
-.work--3,
-.work--4 {
-  border-radius: 2px;
-  position: relative;
-
-  background-repeat: no-repeat;
-  height: 20rem;
-
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.work--1 {
-  background-image: url("../Images/Design.png");
-}
-.work--2 {
-  background-image: url("../Images/SHOPEASE.png");
-}
-.work--3 {
-  background-image: url("../Images/YOUTUBE.png");
-}
-
-.work--4 {
-  background-image: url("../Images/GALLERYGAZE.png");
-}
-
-.card {
-  border-radius: 20px;
-  background-color: #151515;
-
-  overflow: hidden;
-
-  background-size: cover;
-  transition: 0.2s ease;
-  border: 1px solid #222;
 }
 
 .project__info {
@@ -189,7 +132,6 @@
   font-weight: 400;
 }
 
-.work .button-bar .project-button,
 .p-work-card .button-bar .project-button {
   user-select: none;
   margin-right: 1em;
@@ -204,7 +146,6 @@
   transition: 0.2s ease;
 }
 
-.work .button-bar .dark-btn:hover,
 .p-work-card .button-bar .dark-btn:hover {
   cursor: pointer;
   box-shadow: 0 3px #b3e0b7fa;
@@ -237,33 +178,6 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.work {
-  padding: 1em;
-  position: relative;
-  border-radius: 20px;
-  background-color: #151515;
-
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-size: cover;
-  transition: 0.2s ease;
-  border: 1px solid #222;
-  gap: 0.8rem;
-}
-
-.work_info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8em;
-}
-
-.project__name {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-top: 0.4em;
-}
 
 .info {
   font-size: 0.9rem;
@@ -280,12 +194,6 @@ a {
     width: 100%;
   }
 
-  .work-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-
   .project--1,
   .project--2 {
     display: grid;
@@ -293,28 +201,14 @@ a {
     gap: 1.5rem;
   }
 
-  .box {
-    gap: 1.5rem;
-  }
-
   .p-work-card .dark-desc {
     color: #999;
     font-size: 18px;
-  }
-
-  .info {
-    font-size: 0.9rem;
-    color: #999;
-    font-size: 16px;
   }
 }
 @media (min-width: 1000px) {
   #projects {
     padding: 4em 8em;
-  }
-
-  #work {
-    padding-bottom: 4em;
   }
 
   .project-container {

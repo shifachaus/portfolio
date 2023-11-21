@@ -1,12 +1,9 @@
 import React from "react";
-import Projects from "../Components/Projects";
-import foodvilla from "../Images/foodvilla2.png";
+import "../Pages/Work.css";
 
 const Work = () => {
   return (
-    <section id="work" className="">
-      {/* <Projects /> */}
-
+    <section id="work">
       <div className=" container main-container">
         <p className="sub-heading-section">Work.</p>
         <h2 className="heading-secondary">My Projects</h2>

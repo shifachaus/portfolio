@@ -1,5 +1,4 @@
 import React from "react";
-import about from "../Images/about.jpg";
 import shopease from "../Images/SHOPEASE.png";
 import youtube from "../Images/YOUTUBE.png";
 import "./Projects.css";

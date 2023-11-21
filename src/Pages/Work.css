@@ -1,0 +1,159 @@
+#work {
+  padding-top: 13em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.work--1,
+.work--2,
+.work--3,
+.work--4 {
+  border-radius: 2px;
+  position: relative;
+
+  background-repeat: no-repeat;
+  height: 20rem;
+
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.work--1 {
+  background-image: url("../Images/Design.png");
+}
+.work--2 {
+  background-image: url("../Images/SHOPEASE.png");
+}
+.work--3 {
+  background-image: url("../Images/YOUTUBE.png");
+}
+
+.work--4 {
+  background-image: url("../Images/GALLERYGAZE.png");
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #151515;
+
+  overflow: hidden;
+
+  background-size: cover;
+  transition: 0.2s ease;
+  border: 1px solid #222;
+}
+
+.project-name {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.work .button-bar .project-button {
+  user-select: none;
+  margin-right: 1em;
+  color: #f5f5f5;
+  width: fit-content;
+  padding: 0.8em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f5f5f5;
+  border-radius: 15px;
+  transition: 0.2s ease;
+}
+
+.work .button-bar .dark-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 3px #b3e0b7fa;
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image {
+  width: 100%;
+}
+
+.work {
+  padding: 1em;
+  position: relative;
+  border-radius: 20px;
+  background-color: #151515;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  transition: 0.2s ease;
+  border: 1px solid #222;
+  gap: 0.8rem;
+}
+
+.work_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #999;
+  font-weight: 300;
+}
+
+@media (min-width: 700px) {
+  .work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .image {
+    width: 100%;
+  }
+
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .box {
+    gap: 1.5rem;
+  }
+
+  .info {
+    color: #999;
+    font-size: 16px;
+  }
+
+  #work {
+    padding-bottom: 4em;
+  }
+
+  .work {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2em;
+  }
+}
