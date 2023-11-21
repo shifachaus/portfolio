@@ -238,7 +238,7 @@ a {
   justify-content: space-between;
 }
 .work {
-  padding: 2em;
+  padding: 1em;
   position: relative;
   border-radius: 20px;
   background-color: #151515;
@@ -272,8 +272,7 @@ a {
 }
 
 @media (min-width: 800px) {
-  #projects,
-  #work {
+  #projects {
     padding: 1em 8em;
   }
 
@@ -287,11 +286,10 @@ a {
     gap: 2rem;
   }
 
-  .work-container,
   .project--1,
   .project--2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 1.5rem;
   }
 
@@ -310,13 +308,13 @@ a {
     font-size: 16px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   #projects {
     padding: 4em 8em;
   }
 
   #work {
-    padding: 7em 7em;
+    padding-bottom: 4em;
   }
 
   .project-container {

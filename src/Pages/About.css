@@ -1,6 +1,5 @@
 #about {
   padding-top: 7em;
-  padding-bottom: 7em;
 }
 
 .about-img {
@@ -16,7 +15,6 @@
 
 .text {
   font-weight: 500;
-  width: 60ch;
   font-size: 14px;
   line-height: 170%;
   color: #9b9b9b;
@@ -39,7 +37,7 @@
 }
 
 .experience-content {
-  padding-top: 8em;
+  padding-top: 4em;
 
   margin: 0 auto;
   display: flex;
@@ -78,9 +76,6 @@
 }
 
 @media (min-width: 800px) {
-  #about {
-    padding: 7em 8em;
-  }
   .about-container {
     flex-direction: row;
     gap: 2em;
@@ -102,7 +97,6 @@
 
   .text {
     font-weight: 500;
-    width: 60ch;
     font-size: 16px;
     line-height: 170%;
     color: #9b9b9b;
@@ -147,10 +141,6 @@
 }
 
 @media (min-width: 1200px) {
-  /* #about {
-    padding: 12em 7em 12em 7em;
-  } */
-
   .heading-secondary {
     font-size: 2.5rem;
   }
