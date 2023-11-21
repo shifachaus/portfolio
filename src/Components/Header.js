@@ -3,13 +3,15 @@ import "./Header.css";
 import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
 // import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
+import useScroll from "../Hooks/useScroll";
 const Header = () => {
   const [status, setStatus] = useState(false);
+  const scrolling = useScroll();
 
   return (
     <header id="header">
       <main className="container">
-        <div className="nav__container">
+        <div className={scrolling ? "nav__container--pd" : "nav__container "}>
           <Link to="/" className="logo__link">
             <h2 className="logo">Shifa</h2>
           </Link>
@@ -41,8 +43,9 @@ const Header = () => {
         <div className={status ? "nav__menu active" : "nav__menu"}>
           {status && (
             <IoCloseOutline
-              style={{ fontSize: "1.8rem" }}
-              className="menu__close"
+              IoMenuOutline
+              style={{ fontSize: "2.5rem" }}
+              className={scrolling ? "menu__close--scroll" : "menu__close"}
               onClick={() => setStatus(false)}
             />
           )}
