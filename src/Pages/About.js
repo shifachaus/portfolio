@@ -13,11 +13,12 @@ const About = () => {
             </div>
 
             <div className="about-info-container">
-              <p className="sub-heading-section">Hello👋, I'm Shifa</p>
+              <h2 className="about--title">Hello! 👋 </h2>
+
               <p className="text">
-                I'm a Frontend Developer with one year of hands-on experience
-                based in India. My passion lies in creating websites and web
-                applications that address and solve user problems.
+                I'm Shifa a Frontend Developer with one year of hands-on
+                experience based in India. My passion lies in creating websites
+                and web applications that address and solve user problems.
               </p>
               <p className="text">
                 As a front-end developer, I offer not just technical expertise

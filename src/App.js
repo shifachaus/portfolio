@@ -9,6 +9,8 @@ import Work from "./Pages/Work";
 function App() {
   return (
     <div className="App">
+      <div id="overlay"></div>
+      <div id="blob"></div>
       <Router>
         <Header />
         <Routes>

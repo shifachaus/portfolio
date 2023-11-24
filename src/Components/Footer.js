@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-content">
             <p className="contact-title">Let's connect!</p>
             <a className="mail-link" href="mailto:chausshifa804@gmail.com">
-              chausshifa804@gmail.com
+              contact@shifachaus.com
             </a>
           </div>
           <div className="social-links">
@@ -29,22 +29,10 @@ const Footer = () => {
             >
               GitHub
             </a>
-            {/* <a
-              href="https://codepen.io/davidhaz"
-              rel="noreferrer"
-              target="_blank"
-              className="links"
-            >
-              CodePen
-            </a>
-            <a
-              href="https://davidhaz.com/David_Haz_Resume.pdf"
-              rel="noreferrer"
-              target="_blank"
-              className="links"
-            >
+
+            <a href="/" rel="noreferrer" target="_blank" className="links">
               Resume
-            </a> */}
+            </a>
           </div>
         </div>
       </main>
