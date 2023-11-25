@@ -5,17 +5,17 @@
   width: 100%;
 }
 
-.nav__container {
+.nav__container--flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav__container {
   padding: 4em 0;
 }
 
 .nav__container--pd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 0.5em 0;
   background-color: rgba(18, 18, 18, 0.5);
   backdrop-filter: blur(15.5px);
@@ -25,10 +25,9 @@
 
 .logo {
   text-transform: capitalize;
-  font-weight: 900;
+  font-weight: 300;
   font-size: 1.8rem;
   z-index: 999;
-  font-weight: 300;
 }
 
 .logo__link {

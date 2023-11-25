@@ -32,6 +32,12 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+.dot {
+  font-size: 1.625rem;
+  color: #b3e0b7fa;
+  font-weight: 600;
+}
+
 #blob {
   width: 300px;
   height: 100px;

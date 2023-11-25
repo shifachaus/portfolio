@@ -10,34 +10,38 @@ const Header = () => {
 
   return (
     <header id="header">
-      <main className="container">
+      <main>
         <div className={scrolling ? "nav__container--pd" : "nav__container "}>
-          <Link to="/" className="logo__link">
-            <h2 className="logo">Shifa</h2>
-          </Link>
+          <div className="container nav__container--flex">
+            <Link to="/" className="logo__link">
+              <h2 className="logo">
+                Shifa<span className="dot">.</span>
+              </h2>
+            </Link>
 
-          <nav className="nav">
-            <ul className="nav__list">
-              <li className="nav__item">
-                <Link className="nav__item-desk" to="about">
-                  About
-                </Link>
-              </li>
-              <li className="nav__item">
-                <Link className="nav__item-desk" to="work">
-                  Work
-                </Link>
-              </li>
-            </ul>
-          </nav>
+            <nav className="nav">
+              <ul className="nav__list">
+                <li className="nav__item">
+                  <Link className="nav__item-desk" to="about">
+                    About
+                  </Link>
+                </li>
+                <li className="nav__item">
+                  <Link className="nav__item-desk" to="work">
+                    Work
+                  </Link>
+                </li>
+              </ul>
+            </nav>
 
-          {!status && (
-            <IoMenuOutline
-              style={{ fontSize: "2.5rem" }}
-              className="menu__open"
-              onClick={() => setStatus(true)}
-            />
-          )}
+            {!status && (
+              <IoMenuOutline
+                style={{ fontSize: "2.5rem" }}
+                className="menu__open"
+                onClick={() => setStatus(true)}
+              />
+            )}
+          </div>
         </div>
 
         <div className={status ? "nav__menu active" : "nav__menu"}>
