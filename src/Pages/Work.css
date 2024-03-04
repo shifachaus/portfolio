@@ -31,28 +31,17 @@
 }
 
 .work--1 {
-  background-image: url("../Images/Design.png");
+  background-image: url("../Images/Design.webp");
 }
 .work--2 {
-  background-image: url("../Images/SHOPEASE.png");
+  background-image: url("../Images/SHOPEASE.webp");
 }
 .work--3 {
-  background-image: url("../Images/YOUTUBE.png");
+  background-image: url("../Images/YOUTUBE.webp");
 }
 
 .work--4 {
-  background-image: url("../Images/GALLERYGAZE.png");
-}
-
-.card {
-  border-radius: 20px;
-  background-color: #151515;
-
-  overflow: hidden;
-
-  background-size: cover;
-  transition: 0.2s ease;
-  border: 1px solid #222;
+  background-image: url("../Images/GALLERYGAZE.webp");
 }
 
 .project-name {

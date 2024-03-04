@@ -1,6 +1,6 @@
 import React from "react";
-import shopease from "../Images/SHOPEASE.png";
-import youtube from "../Images/YOUTUBE.png";
+import shopease from "../Images/SHOPEASE.webp";
+import youtube from "../Images/YOUTUBE.webp";
 import "./Projects.css";
 
 const Projects = () => {
@@ -24,7 +24,11 @@ const Projects = () => {
                   <div class="mouse-position-tracker"></div>
                   <div class="mouse-position-tracker"></div>
                   <div class="tilting-card-body">
-                    <img src={shopease} className="image" alt="shopease" />
+                    <img
+                      src={shopease}
+                      className="shpeEase project image"
+                      alt="shopease"
+                    />
                   </div>
                 </div>
               </div>
@@ -32,12 +36,12 @@ const Projects = () => {
                 <div class="p-work-card ">
                   <p className="project-name">ShopEase</p>
                   <div>
-                    <p class="project-description dark-desc">
+                    <p className="project-description dark-desc">
                       ShopEase is your online furniture store. Browse, buy, and
                       leave reviews easily.
                     </p>
                   </div>
-                  <div class="button-bar">
+                  <div className="button-bar">
                     <a
                       href="https://theshopease.netlify.app/"
                       class="project-button dark-btn"
@@ -63,20 +67,24 @@ const Projects = () => {
                   <div class="mouse-position-tracker"></div>
                   <div class="mouse-position-tracker"></div>
                   <div class="tilting-card-body">
-                    <img src={youtube} className="image" alt="youtube" />
+                    <img
+                      src={youtube}
+                      className="youtube project image"
+                      alt="youtube"
+                    />
                   </div>
                 </div>
               </div>
               <div className=" project__info-2">
                 <div class="p-work-card ">
-                  <p className="project-name">Youtube Clone</p>
+                  <p className="project-name">yt-doppelganger</p>
                   <div>
-                    <p class="project-description dark-desc">
-                      The yt-doppelganger (YouTube Clone) is a web app where you
-                      can explore, watch videos...
+                    <p className="project-description dark-desc">
+                      The yt-doppelganger (YouTube UI Clone) is a web app where
+                      you can explore, watch videos...
                     </p>
                   </div>
-                  <div class="button-bar">
+                  <div className="button-bar">
                     <a
                       href="https://yt-doppelgange.netlify.app/"
                       class="project-button dark-btn"

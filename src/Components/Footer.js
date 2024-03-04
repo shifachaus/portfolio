@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <main className="container">
+      <section className="container">
         <div className="footer-container">
           <div className="footer-content">
             <p className="contact-title">Let's connect!</p>
@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </main>
+      </section>
     </footer>
   );
 };

@@ -59,11 +59,11 @@ const Work = () => {
             <div className="work">
               <div className="work--3"></div>
               <div className="work_info">
-                <h3 className="project-name">Youtube Clone</h3>
+                <h3 className="project-name">yt-doppelganger</h3>
                 <p className="info">
-                  The yt-doppelganger (YouTube Clone) is a web app where you can
-                  explore, watch videos, add comments, and participate in live
-                  chats.
+                  The yt-doppelganger (YouTube UI Clone) is a web app where you
+                  can explore, watch videos, add comments, and participate in
+                  live chats.
                 </p>
 
                 <div class="button-bar">

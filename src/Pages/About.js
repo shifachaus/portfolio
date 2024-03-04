@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../Images/about.jpg";
+import about from "../Images/about.webp";
 import "./About.css";
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
         <div className="main-container">
           <div className="about-container">
             <div className="about-img-container">
-              <img src={about} className=" about-img" />
+              <img src={about} className="about-img" alt="about" />
             </div>
 
             <div className="about-info-container">
@@ -43,7 +43,7 @@ const About = () => {
             <div class="experience-display">
               <div>
                 <div class="exp-item">
-                  <p class="job-title">Frontend Software Engineer</p>
+                  <p class="job-title">Frontend Developer</p>
                   <div class="job-date">
                     <p class="employer">Incretech</p>
                     <p class="date">Dec 2022 - Apr 2023</p>
@@ -59,23 +59,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-
-              {/* <div>
-                  <div class="exp-item green-item">
-                    <div class="job-date">
-                      <p class="employer">Open to new opportunities</p>
-                      <p class="date">Always</p>
-                    </div>
-                    <a
-                      href="https://davidhaz.com/David_Haz_Resume.pdf"
-                      target="_blank"
-                      rel="noreferrer"
-                      class="resume-button"
-                    >
-                      View Resume
-                    </a>
-                  </div>
-                </div> */}
             </div>
           </div>
         </div>

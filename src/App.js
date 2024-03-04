@@ -8,7 +8,7 @@ import Work from "./Pages/Work";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Router>
         <Header />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
       </Router>
 
       <Footer />
-    </div>
+    </main>
   );
 }
 

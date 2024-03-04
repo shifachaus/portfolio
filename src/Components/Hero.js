@@ -1,11 +1,5 @@
 import React from "react";
 import "../Components/Hero.css";
-import {
-  IoLogoHtml5,
-  IoLogoCss3,
-  IoLogoJavascript,
-  IoLogoReact,
-} from "react-icons/io5";
 
 const Hero = () => {
   return (

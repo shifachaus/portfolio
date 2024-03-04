@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header id="header">
-      <main>
+      <section>
         <div className={scrolling ? "nav__container--pd" : "nav__container "}>
           <div className="container nav__container--flex">
             <Link to="/" className="logo__link">
@@ -80,7 +80,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </main>
+      </section>
     </header>
   );
 };
